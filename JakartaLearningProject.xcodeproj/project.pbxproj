@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B0426222E1E7D800AC8025 /* DiscoverTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426122E1E7D800AC8025 /* DiscoverTable.swift */; };
+		14B0426422E1E80F00AC8025 /* KotuCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426322E1E80F00AC8025 /* KotuCollection.swift */; };
+		14B0426622E1E96800AC8025 /* JakPusCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426522E1E96800AC8025 /* JakPusCollection.swift */; };
+		14B0426822E1E98800AC8025 /* KotuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426722E1E98800AC8025 /* KotuCell.swift */; };
+		14B0426A22E1E9B800AC8025 /* JakPusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426922E1E9B800AC8025 /* JakPusCell.swift */; };
+		14B0426C22E1EE0100AC8025 /* KotuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426B22E1EE0100AC8025 /* KotuTableViewCell.swift */; };
+		14B0426E22E1EE0C00AC8025 /* JakpusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0426D22E1EE0C00AC8025 /* JakpusTableViewCell.swift */; };
 		8B03A2A522D9466600BF35FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03A2A422D9466600BF35FD /* AppDelegate.swift */; };
 		8B03A2A722D9466600BF35FD /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03A2A622D9466600BF35FD /* ScanController.swift */; };
 		8B03A2AA22D9466600BF35FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B03A2A822D9466600BF35FD /* Main.storyboard */; };
@@ -23,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B0426122E1E7D800AC8025 /* DiscoverTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTable.swift; sourceTree = "<group>"; };
+		14B0426322E1E80F00AC8025 /* KotuCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotuCollection.swift; sourceTree = "<group>"; };
+		14B0426522E1E96800AC8025 /* JakPusCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakPusCollection.swift; sourceTree = "<group>"; };
+		14B0426722E1E98800AC8025 /* KotuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotuCell.swift; sourceTree = "<group>"; };
+		14B0426922E1E9B800AC8025 /* JakPusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakPusCell.swift; sourceTree = "<group>"; };
+		14B0426B22E1EE0100AC8025 /* KotuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotuTableViewCell.swift; sourceTree = "<group>"; };
+		14B0426D22E1EE0C00AC8025 /* JakpusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakpusTableViewCell.swift; sourceTree = "<group>"; };
 		8B03A2A122D9466600BF35FD /* JakartaLearningProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakartaLearningProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B03A2A422D9466600BF35FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B03A2A622D9466600BF35FD /* ScanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
@@ -51,6 +65,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B0426F22E1F0BE00AC8025 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				14B0426922E1E9B800AC8025 /* JakPusCell.swift */,
+				14B0426722E1E98800AC8025 /* KotuCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		14B0427022E204C400AC8025 /* Ini Yang Baru di */ = {
+			isa = PBXGroup;
+			children = (
+				14B0427422E2054B00AC8025 /* Table */,
+				14B0427222E2052900AC8025 /* Collection */,
+				14B0427122E2050900AC8025 /* TableViewCell */,
+				14B0426F22E1F0BE00AC8025 /* Custom Cell */,
+			);
+			path = "Ini Yang Baru di";
+			sourceTree = "<group>";
+		};
+		14B0427122E2050900AC8025 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14B0426B22E1EE0100AC8025 /* KotuTableViewCell.swift */,
+				14B0426D22E1EE0C00AC8025 /* JakpusTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		14B0427222E2052900AC8025 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				14B0426522E1E96800AC8025 /* JakPusCollection.swift */,
+				14B0426322E1E80F00AC8025 /* KotuCollection.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		14B0427422E2054B00AC8025 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				14B0426122E1E7D800AC8025 /* DiscoverTable.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 		8B03A29822D9466600BF35FD = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +166,7 @@
 		8B03A2C722DDB8DC00BF35FD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14B0427022E204C400AC8025 /* Ini Yang Baru di */,
 				8B03A2A822D9466600BF35FD /* Main.storyboard */,
 				8B03A2D622E06BE000BF35FD /* PhotoCell.swift */,
 			);
@@ -185,12 +246,19 @@
 			files = (
 				8B03A2A722D9466600BF35FD /* ScanController.swift in Sources */,
 				8BC9B6D422E1BC0900F36F01 /* MLKotaTuaV5.mlmodel in Sources */,
+				14B0426622E1E96800AC8025 /* JakPusCollection.swift in Sources */,
 				8B03A2A522D9466600BF35FD /* AppDelegate.swift in Sources */,
 				8B03A2BC22D94A3700BF35FD /* ExploredController.swift in Sources */,
 				8B03A2CF22DF06BC00BF35FD /* MLKotaTuaV4.mlmodel in Sources */,
+				14B0426422E1E80F00AC8025 /* KotuCollection.swift in Sources */,
+				14B0426222E1E7D800AC8025 /* DiscoverTable.swift in Sources */,
 				8B03A2BE22DC91A300BF35FD /* DiscoverController.swift in Sources */,
+				14B0426C22E1EE0100AC8025 /* KotuTableViewCell.swift in Sources */,
+				14B0426E22E1EE0C00AC8025 /* JakpusTableViewCell.swift in Sources */,
 				8B03A2D722E06BE000BF35FD /* PhotoCell.swift in Sources */,
 				8B03A2C022DC91BF00BF35FD /* InformationController.swift in Sources */,
+				14B0426822E1E98800AC8025 /* KotuCell.swift in Sources */,
+				14B0426A22E1E9B800AC8025 /* JakPusCell.swift in Sources */,
 				8B03A2C422DDB8A600BF35FD /* ApplicationData.swift in Sources */,
 				8B03A2AD22D9466600BF35FD /* JakartaLearningProject.xcdatamodeld in Sources */,
 			);
@@ -339,7 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VA3VNPW9K;
+				DEVELOPMENT_TEAM = SK54WQSLHU;
 				INFOPLIST_FILE = JakartaLearningProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VA3VNPW9K;
+				DEVELOPMENT_TEAM = SK54WQSLHU;
 				INFOPLIST_FILE = JakartaLearningProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
